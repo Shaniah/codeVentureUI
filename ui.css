@@ -1,0 +1,178 @@
+/*disable scrolling*/
+html, body {
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden;
+}
+
+/*container for the code editor*/
+#code-editor {
+    position: relative;
+    padding-right: 1%;
+    float: right;
+}
+
+/*run button*/
+#run-button {
+    position: absolute;
+    background-image: url(./ui_images/run_button.svg);
+    background-size: 165px, 49px;
+    height: 49px;  
+    width: 165px;
+    top: 50%;
+    left: 50%;
+    transform: translate(230%, 280%);
+    border-style: none;
+}
+
+/*run button hover*/
+#run-button:hover {
+    background-image: url(./ui_images/run_button_click.svg);
+    cursor: pointer;
+}
+
+/*run button click*/
+#run-button:focus {
+    background-image: url(./ui_images/run_button_click.svg);
+    cursor: pointer;
+}
+
+/*remove outline on buttons*/
+button:focus {
+    outline: 0;
+    border-style: none;
+}
+
+/*start() drop-down button*/
+#start-button {
+    position: relative;
+    background-image: url(./ui_images/start.svg);
+    background-size: 100%, 100%;
+    height: 17px;  
+    width: 278px;
+    cursor: pointer;
+    border-style: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-49.5%, -3000%); 
+}
+
+/*see(x) drop-down button*/
+#see-button {
+    position: relative;
+    background-image: url(./ui_images/see.svg);
+    background-size: 100%, 100%;
+    height: 17px;  
+    width: 278px;
+    cursor: pointer;
+    border-style: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-49.5%, -3000%); 
+}
+
+/*nextTo(x) drop-down button*/
+#nextto-button {
+    position: relative;
+    background-image: url(./ui_images/nextTo.svg);
+    background-size: 100%, 100%;
+    height: 17px;  
+    width: 278px;
+    cursor: pointer;
+    border-style: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-49.5%, -3000%); 
+}
+
+/*start() hover*/
+#start-button:hover {
+    background-image: url(./ui_images/start-hover.svg);
+    cursor: pointer;
+}
+
+/*see(x) hover*/
+#see-button:hover {
+    background-image: url(./ui_images/see-hover.svg);
+    cursor: pointer;
+}
+
+/*nextTo(x) hover*/
+#nextto-button:hover {
+    background-image: url(./ui_images/nextTo-hover.svg);
+    cursor: pointer;
+}
+
+/*dropdown content*/
+.dropdown {
+    display: none;
+    top: 50%;
+    left: 50%;
+}
+
+/*codeflask font*/
+body {
+    font-family: Arial;
+  }
+
+/*codeflask */ 
+.code {
+    position: relative;
+    width: 275px;
+    height: 175px;
+    border: 2px solid #ccc;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -280%);
+  }
+
+/*inventory boxes*/
+#inventory {
+    float: right;
+    top: 50%;
+    left: 50%;
+    transform: translate(100%, 660%);
+}
+
+/*padding between box 1 & 2 */
+#slot1 {
+    padding-right: 40px;
+}
+
+/*padding between box 2 & 3 */
+#slot2 {
+    padding-right: 40px;
+}
+
+/*dialogue box location*/
+#dialogue {
+    top: 50%;
+    left: 50%;
+    transform: translate(5%, 115%);
+}
+
+/*princess icon & name*/
+#princess {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-275%, -125%);
+}
+
+/*speech that enters the dialogue-box*/
+#speech {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-38%, -1250%);
+}
+
+/*makes yellow text*/
+span {
+    color: #F2D674;
+}
+
+/*makes red text*/
+#red {
+    color: #F07272;
+}

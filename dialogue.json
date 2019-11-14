@@ -1,0 +1,27 @@
+{
+"character": "Princess",
+    "tutorialDialogue": [
+        {
+            "emotion": "smile",
+            "d": "Thank you for bringing my statue to life!"
+        },
+        {
+            "emotion": "determined",
+            "d": "Now we can finally stop <span id='red'>the bad guy</span>."
+        },
+        {
+            "emotion": "neutral",
+            "d": "First things first! You need to get him moving."
+        },
+        {
+            "emotion": "neutral",
+            "d": "Why don't you try having him run to <span>left</span> and stop at <span>that wall</span>?"
+        }
+    ],
+    "errorDialogue": [
+        {
+        "emotion": "woried",
+            "d": "That's not quite right."
+        }
+    ]
+}

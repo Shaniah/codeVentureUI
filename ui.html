@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="ui.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    </head>
+    <body onclick= "test()">
+        <div id="code-editor">
+            <img src="./ui_images/code-editor.svg" alt="Code Editor">
+            <br><button class="dropdown-btn" id="start-button"></button>
+                <div class="dropdown">
+                    <div class="code" id="start">
+// Feel free to play with the code.
+
+function Hello() {
+    return console.log("Hello World");
+}
+                    </div>
+                </div>
+            <br><button class="dropdown-btn" id="see-button"></button>
+                <div class="dropdown">
+                    <div class="code" id="see">
+// Feel free to play with the code.
+
+function Hello() {
+    return console.log("Hello World");
+}
+                    </div>
+                </div>
+            <br><button class="dropdown-btn" id="nextto-button"></button>
+                <div class="dropdown">
+                    <div class="code" id="next">
+// Feel free to play with the code.
+
+function Hello() {
+    return console.log("Hello World");
+}
+                    </div>
+            </div>
+        </div> 
+        <button id="run-button"></button>
+        <div id="inventory">
+            <img src="./ui_images/slot.svg" alt="Slot1" id=slot1>
+            <img src="./ui_images/slot.svg" alt="Slot2" id=slot2>
+            <img src="./ui_images/slot.svg" alt="Slot3" id=slot3>
+        </div>
+        <div id="dialogue">
+            <img src="./ui_images/dialogue.svg" alt="Dialogue Box">
+            <img src="./character_images/dialogue/princess-tag.svg" alt="Princess UI" id="princess"><div id="speech">Hello!</div>
+        </div>
+            <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+            <script src="https://unpkg.com/codeflask/build/codeflask.min.js"></script>
+            <script type="text/javascript" src="ui.js"></script>
+    </body>
+</html>
